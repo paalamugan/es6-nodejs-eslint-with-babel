@@ -6,9 +6,6 @@ import logger from 'morgan';
 import indexRouter from './routes/index';
 import usersRouter from './routes/users';
 
-// eslint-disable-next-line no-underscore-dangle
-global.__dirname = path.resolve('./');
-
 const app = express();
 
 /*

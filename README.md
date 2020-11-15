@@ -1,18 +1,20 @@
 # Node Version
 
-```txt
+```node
 node - v14.8.0
 npm - 6.14.7
 ```
 
+- If node version doesn't exsit automatically Installed specific node version via nvm.
+
 ```shell
-npm install
+nvm use
 ```
 
-- To configure eslint in node project
+- Install node_modules dependencies.
 
 ```shell
-npx eslint --init
+npm install
 ```
 
 ## Get Started
@@ -46,3 +48,11 @@ npm run watch
 - transpile - convert es6 and beyond code to es5 to a folder named `complied-server`
 - clean - delete transpiled folder
 - build - clean and transpile
+
+### Tips
+
+- To configure eslint in node project
+
+```shell
+npm install -D eslint && npx eslint --init
+```

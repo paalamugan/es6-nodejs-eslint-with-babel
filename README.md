@@ -45,7 +45,7 @@ npm run watch
 
 ### Other scripts
 
-- transpile - convert es6 and beyond code to es5 to a folder named `complied-server`
+- transpile - convert es6 and beyond code to es5 to a folder named `compiled-server`
 - clean - delete transpiled folder
 - build - clean and transpile
 

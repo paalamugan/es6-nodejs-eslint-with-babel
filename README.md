@@ -1,8 +1,12 @@
 # Node Version
 
-```node
+```txt
 node - v14.8.0
 npm - 6.14.7
+```
+
+```shell
+npm install
 ```
 
 - To configure eslint in node project
